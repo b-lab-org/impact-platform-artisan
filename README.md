@@ -1,2 +1,2 @@
-# impact-platform-artisan
+# Impact Platform: Artisan
 Docker container for Artisan
