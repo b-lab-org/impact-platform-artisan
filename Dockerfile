@@ -16,7 +16,12 @@ RUN apt-get update -y && \
     php5-gd \
     php5-memcached \
     postgresql-client-9.4 \
-    openssl
+    curl \
+    php5-curl \
+    libssl-dev \
+    openssl \
+    libcurl4-openssl-dev
+
 
 RUN php5enmod mcrypt
 ADD php.ini /etc/php5/cli/conf.d/impact.ini
