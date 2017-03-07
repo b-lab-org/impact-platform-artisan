@@ -15,7 +15,8 @@ RUN apt-get update -y && \
     php5-sqlite \
     php5-gd \
     php5-memcached \
-    postgresql-client-9.4
+    postgresql-client-9.4 \
+    openssl
 
 RUN php5enmod mcrypt
 ADD php.ini /etc/php5/cli/conf.d/impact.ini
