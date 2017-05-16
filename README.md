@@ -1,4 +1,6 @@
 # Impact Platform: Artisan
+This image is DEPRECATED. Please use [impact-platform-php](https://github.com/b-lab-org/impact-platform-php)
+
 [Docker](https://www.docker.com/) container for [Artisan](https://laravel.com/docs/master/artisan)
 
 ## Overview
